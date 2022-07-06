@@ -11,7 +11,7 @@ h1 {
     color: orange;
 }
 
-section {
+.flexible {
     display: flex;
 }
 
@@ -54,4 +54,33 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+#inline {
+    display: flex;
+}
+
+.boxitem {
+    width: 50%;
+    margin: 5%;
+    box-shadow: 15px 15px 100px gray;
+}
+
+.experience {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+
+footer {
+    text-align: center;
+}
+
+#color1 {
+    border-left: 7px solid tomato;
+}
+
+#color2 {
+    border-left: 7px solid blue;
 }
